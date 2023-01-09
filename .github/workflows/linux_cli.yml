@@ -1,9 +1,5 @@
 name: 🐧 Linux CLI
-on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 0 * * 2'
+on: [push]
 
 env:
   CARGO_TERM_COLOR: always
